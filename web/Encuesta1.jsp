@@ -26,7 +26,7 @@
 		<a href="menu.jsp" class="icon-arrow-left" data-info="Retroceder">Pagina previa</a>
 	</nav>
   </header>
-      <form>|<div class="pp"> <pp>Encuesta Egresados</pp> </div></form>
+      <div class="pp"> <pp>Encuesta Egresados</pp> </div>
   
  
   <form  method="post">
@@ -44,11 +44,10 @@
             <input  placeholder="ejemplo@ejemplo.com" type="text" id="correo"><br/> 
             </label>
             </div>
+       <!programa Educativo>
        <div class="col-2">
             <label>
                 <h3>Programa Educativo</h3><br>
-            <!--<div class="estilo2">-->
-           
             <div class="estilo2">
                 <input type="radio" name="option1" value="1" id="option1" checked/>
                 <label for="radio3">Ingeniería Civil</label><br/>
@@ -70,66 +69,75 @@
                 <label for="radio7">Ingeniería Informática</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="6" id="option1" />
                 <label for="radio7">Ingeniería Mecánica</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="7" id="option1" />
                 <label for="radio7">Ingeniería Mecánica-Eléctrica</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="8" id="option1" />
                 <label for="radio7">Ingeniería Mecatrónica</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="9" id="option1" />
                 <label for="radio7">Ingeniería Metalúrgia y Ciencias de los Materiales</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="10" id="option1" />
                 <label for="radio7">Ingeniería Naval</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="11" id="option1" />
                 <label for="radio7">Ingeniería Química</label><br/>
             </div>
              <div class="estilo2">
-                <input type="radio" name="option1" value="5" id="option1" />
+                <input type="radio" name="option1" value="12" id="option1" />
                 <label for="radio7">Ingeniería Topográfica Geodésica</label><br/>
             </div>
             </label>
             </div>  
-           
+        <!Labora actualmente>
                 <div class="col-2">
             <label>
-            Difilcutades para conseguir empleo:<br>
+                <!--Falta fecha de egreso aqui-->
+                <h3>¿Labora actualmente?</h3><br>
             <div class="estilo2">
                 <input type="radio" name="option2" value="1" id="option2" checked/>
-                <label for="radio8">No estar titulado</label><br /><br />
+                <label for="radio8">Si</label><br /><br />
              </div>
             <div class="estilo2">
                 <input type="radio" name="option2" value="2" id="option2" />
-                <label for="radio9">No dominar el ingles</label><br />
+                <label for="radio9">No</label><br />
             </div>
-            <div class="estilo2">
-                <input type="radio" name="option2" value="3" id="option2" />
-                <label for="radio10">Falta de experiencia laboral</label><br />
-            </div>
-            <div class="estilo2">
-                <input type="radio" name="option2" value="4" id="option2" />
-                <label for="radio11">Ser egresado de su universidad</label><br />
-            </div>
-                <div class="estilo2">
-                <input type="radio" name="option2" value="5" id="option2" />
-                <label for="radio12">A un no has conseguido empleo</label><br /><br>
-                
-            </div>
-            <a id="Encuesta1" href='#'>enviar</a>
             </label>
             </div>  
-             </form>
-            
-            </form>
+        <!Meses que pasaron>
+                <div class="col-2">
+            <label>
+                <h3>¿Cuántos meses pasaron, después de graduarse, hasta encontrar el primer trabajo relacionado con su carrera?</h3><br>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="1" id="option2" checked/>
+                <label for="radio8">Menos de 1 mes</label><br /><br />
+             </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio9">De 1 a 6 meses</label><br />
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio9">Más de 6 meses</label><br />
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio9">otro</label><br />
+            </div>
+                <br>
+                <a id="Encuesta1" href='#'>enviar</a>
+            </label>
+            </div> 
+             
   </div>
 <script type="text/javascript">
 var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
