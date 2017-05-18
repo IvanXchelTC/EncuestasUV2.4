@@ -54,7 +54,7 @@ h3 {/**aquí**/
   font-family: 'Roboto', serif;
   text-align: justify;
   font-weight: bold;
-  color: grey;
+  color: #4d6d68; /*color oficial*/
   text-shadow: 1px 1px 0 #fff;
 }
 
@@ -73,7 +73,7 @@ form {
 
 form > div > label {
   display: inline-block;
-  padding: 0px 20px 10px;
+  padding: 0% 20% 10%;
   vertical-align: top;
   font-size: 16px;
   font-weight: bold;
@@ -96,14 +96,14 @@ label > input {
   display: inherit;
   position: relative;
   width: 100%;
-  height: 27px;
+  height: 30%;
   line-height: 27px;
-  margin: 5px -5px 0;
-  padding: 7px 5px 3px;
+  margin: 2% 0% 1%;
+  padding: 1% 5% 3%;
   border: none;
   outline: none;
   color: black;
-  font-family: 'roboto', Arial, sans-serif;
+  font-family: 'roboto';
   font-weight: bold;
   font-size: 16px;
   opacity: .6;
@@ -111,8 +111,8 @@ label > input {
 }
 pp{
   display: block;
-  margin: 10px 8% 10px;
-  padding: 7px 10% 5px;
+  margin: 1% 17% 1%;
+  padding: 1% 8% 1%;
   overflow: hidden;
   background: #ffffff; /*color de fondo de adentro*/
   border: 1.5px solid grey;
@@ -124,6 +124,26 @@ pp{
   font-weight: 900;
   font-size: 30px;
   color: #525151;
+}
+
+pp2{
+  display: block;
+  margin: 1% 18% 1%;
+  padding: 1% 8% 1%;
+  overflow: hidden;
+  background: #ffffff; /*color de fondo de adentro*/
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  font-size: 1px;
+  line-height: 27px;
+  font-family: 'roboto';
+  font-weight: 900;
+  font-size: 16px;
+  color: grey;/* usar #4d4d4d*/
+}
+
+pp > div > label{
+
 }
 
 
