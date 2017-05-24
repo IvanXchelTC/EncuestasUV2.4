@@ -11,7 +11,7 @@
   <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
   <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
   <link rel="stylesheet" type="text/css" media="all" href="css/switchery.min.css">
-  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/default_1.css" />
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/encuesta1.js"></script>
   <script type="text/javascript" src="js/switchery.min.js"></script>
@@ -41,7 +41,7 @@
       <div class="col-2">
             <label>
                 <h3> Correo electrico </h3>
-            <input  placeholder="ejemplo@ejemplo.com" type="text" id="correo"><br/> <br/>
+            <input  placeholder="ejemplo@ejemplo.com" type="text" id="correo"><br/> <br>
             </label>
             </div>
        <!programa Educativo>
@@ -94,10 +94,10 @@
             </div>
              <div class="estilo2">
                 <input type="radio" name="option1" value="12" id="option1" />
-                <label for="radio12">Ingeniería Topográfica Geodésica</label><br/><br/>
+                <label for="radio12">Ingeniería Topográfica Geodésica<br> a</label><br/><br/>
             </div>
             </label>
-            </div>  
+        </div>
         <!Labora actualmente>
                 <div class="col-2">
             <label>
@@ -133,8 +133,42 @@
                 <input type="radio" name="option3" value="2" id="option2" />
                 <label for="radio4">otro</label><br />
             </div>
+                <!actividades>
+                <div class="col-2">
+            <label>
+                <h3>¿A qué actividades le ha dedicado mayor tiempo desde que se graduó?</h3><br>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="1" id="option2" checked/>
+                <label for="radio1">Trabajo regular relacionado con su formación profesional</label><br />
+             </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio2">Trabajo regular no relacionado con su formación profesional</label><br />
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio3">Trabajos temporales relacionados con su formación profesional</label><br />
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio4">Trabajos temporales no relacionados con su formación profesional</label><br />
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio5">Estudios de postgrado</label><br/>
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio6">Desempleado(a)</label><br/>
+            </div>
+            <div class="estilo2">
+                <input type="radio" name="option3" value="2" id="option2" />
+                <label for="radio7">Otro</label><br/>
+            </div>
+            <!--botón-->    
                 <br>
                 <a id="Encuesta1" href='#'>enviar</a>
+            <!--botón-->
             </label>
             </div> 
              
